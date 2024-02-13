@@ -8,6 +8,6 @@ app.get('/', (req, res) => {
 });
 
 // Pornirea serverului
-app.listen(process.env.PORT, () => {
-  console.log(`Serverul rulează la adresa http://localhost:${process.env.PORT}`);
+app.listen(3000, () => {
+  console.log(`Serverul rulează la adresa http://localhost:${3000}`);
 });
