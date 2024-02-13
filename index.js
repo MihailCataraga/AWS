@@ -3,10 +3,11 @@ const app = express();
 
 // Ruta de bază
 app.get('/', (req, res) => {
-  res.send('Salut de la serverul Express!');
+  const nume = "John Doe";
+  res.send(nume);
 });
 
 // Pornirea serverului
-app.listen(port, () => {
+app.listen(process.env.PORT, () => {
   console.log(`Serverul rulează la adresa http://localhost:${process.env.PORT}`);
 });
