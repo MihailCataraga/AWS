@@ -3,8 +3,7 @@ const app = express();
 
 // Ruta de bază
 app.get('/', (req, res) => {
-  const nume = "John Doe";
-  res.send(nume);
+  res.json('My API ruuning')
 });
 
 // Pornirea serverului
