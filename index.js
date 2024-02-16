@@ -3,7 +3,7 @@ const app = express();
 
 // Ruta de bază
 app.get('/', (req, res) => {
-  res.json('My API ruuning')
+  res.json('Serverul merge Dima!!! :)')
 });
 
 // Pornirea serverului
